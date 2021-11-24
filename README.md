@@ -16,3 +16,7 @@ Berikut ini adalah list file beserta penjelasannya:
 * `cyk.py` -> File yang berisi fungsi dan prosedur yang berhubungan dengan implementasi algoritma CYK
 * `main.py` -> File yang befungsi sebagai driver untuk menjalankan program kami
 
+### Cara Menjalankan Program
+1. Install python 3
+2. Buka terminal lalu change directory ke dalam folder source code
+3. Jalankan main.py dengan mengetikkan "python -u main.py"
