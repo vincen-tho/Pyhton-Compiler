@@ -1,28 +1,18 @@
-a = False
-c = None
-d = True + False
-f = c and d
-class x:
-    l += 3
-for i in g:
-    continue
-for x in w:
-    break
-def hex(a, b):
-    return x
+n = int(input())
+while not(n == -999):
+    if 30 <= n <= 200:
+        count += 1
+        sum += n
+        if n <= 50:
+            lt50 += 1
+        elif n >= 100:
+            gt100 += 1
+    n = int(input())
 
-if a == 2:
-    c = 3
-elif b == 4:
-    d = 5
+if count != 0:
+    print(count)
+    print(lt50)
+    print(gt100)
+    print(round(sum/count))
 else:
-    anjing(x)
-
-from python import py
-a = b is 3
-c = not 4
-(a+b) or (b-3)
-with x:
-    h = 5
-pass
-raise x
+    print("Data kosong")
