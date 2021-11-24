@@ -3,7 +3,7 @@ import cyk
 def main():
     verdict = cyk.getVerdict(cyk.cyk())
     if verdict:
-        print("No syntax error detected")
+        print("Accepted")
     else:
-        print("SyntaxError: invalid syntax")
+        print("Syntax Error")
 main()

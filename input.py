@@ -1,18 +1,14 @@
-n = int(input())
-while not(n == -999):
-    if 30 <= n <= 200:
-        count += 1
-        sum += n
-        if n <= 50:
-            lt50 += 1
-        elif n >= 100:
-            gt100 += 1
-    n = int(input())
-
-if count != 0:
-    print(count)
-    print(lt50)
-    print(gt100)
-    print(round(sum/count))
-else:
-    print("Data kosong")
+def do_something(x):
+    ''' This is a sample multiline comment
+    '''
+    if x == 0:
+        return 0
+    elif x + 4 == 1:
+        if True:
+            return 3
+        else:
+            return 2
+    elif x == 32:
+        return 4
+    else:
+        return "Doodoo"
