@@ -40,9 +40,9 @@ def seperate_special_character(input_file):
         line = line.replace('=', ' = ')
         line = line.replace(':', ' : ')
         line = line.split()
-        line.append('EOL')
+        # line.append('EOL')
         input_list.append(line)
     return input_list
 
 
-print(file_to_token('test.py'))
+#print(file_to_token('test.py'))

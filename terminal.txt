@@ -1,0 +1,1 @@
++ - * / % and or variable number is ! not = > < ( ) [ ] ! & ^ ~ True False string ' " if elif else : while for in def # class import as from return raise , break pass continue with None .
